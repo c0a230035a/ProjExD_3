@@ -169,7 +169,7 @@ class Score:
 
 
 def main():
-    pg.display.set_caption("たたかえ！こうかとん")
+    pg.display.set_caption("たたかえ！こうかとん")#下記はこうかとんの設定
     screen = pg.display.set_mode((WIDTH, HEIGHT))    
     bg_img = pg.image.load("fig/pg_bg.jpg")
     bird = Bird((300, 200))
